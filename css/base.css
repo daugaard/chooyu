@@ -1,0 +1,112 @@
+body, html {
+  padding: 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   height: 100%;
+}
+
+.content-mountain {
+  height: 100%;
+  width: 2600px;
+  font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-image:url('/img/panorama1.jpg');  
+
+}
+
+.content-map {
+  height: 100%;
+  width: 2600px;
+  font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-image:url('/img/map2.png');
+  background-repeat:no-repeat;
+  background-size: 100% auto;
+}
+
+.title {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  color: white;  
+  position: fixed;
+  top: 350px;
+  left: 0px;
+  width: 600px;
+  background-color: #111;
+  opacity: 0.9;
+  -webkit-box-shadow: 4px 4px 3px 5px #111;
+}
+
+.title > h1 {
+  font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 35px;
+}
+
+.logo-row {
+  position: fixed;
+  top: 0px;
+  left: 150px;
+  background-color: white;
+  opacity: 0.9;
+  padding: 5px;
+}
+
+.logo-row > img {
+  opacity: 0.9;
+  max-height: 40px;
+  max-width: 140px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.footer { 
+  opacity: 0;
+}
+
+.link {
+  font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+  color: white;
+}
+
+.link > a {
+  cursor: pointer;
+  color: white;
+}
+
+.link > a:hover {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link > a:hover > i {
+  font-size: 50px;
+}
+
+.link > a > i {
+  font-size: 40px;
+  color: white;
+}
+
+.dark > a, .dark > a > i {
+  color: #444;
+}
+
+.dark > a:hover {
+  color: #444;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.white-popup > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
