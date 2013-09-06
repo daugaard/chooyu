@@ -5,8 +5,8 @@ body, html {
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
-    height: 15px;
+    width: 0px;
+    height: 0px;
 }
 
 .content-mountain {
@@ -21,7 +21,7 @@ body, html {
   height: 105%;
   width: 2600px;
   font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-image:url('../img/map2.png');
+  background-image:url('../img/map4.png');
   background-repeat:no-repeat;
   background-size: 100% 100%;
 }
@@ -43,6 +43,44 @@ body, html {
 .title > h1 {
   font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 35px;
+}
+
+.help-top {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  color: white;  
+  position: fixed;
+  top: 200px;
+  left: 0px;
+  width: 300px;
+  background-color: #111;
+  opacity: 0.9;
+  -webkit-box-shadow: 4px 4px 3px 5px #111;
+}
+
+.help-top > h1 {
+  font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
+
+.help-bottom {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  color: white;  
+  position: fixed;
+  top: 1400px;
+  left: 0px;
+  width: 300px;
+  background-color: #111;
+  opacity: 0.9;
+  -webkit-box-shadow: 4px 4px 3px 5px #111;
+}
+
+.help-bottom > h1 {
+  font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
 }
 
 .logo-row {
@@ -69,19 +107,22 @@ body, html {
 
 .link {
   font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
-
-  color: white;
+  color: white;  
 }
 
 .link > a {
   cursor: pointer;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
+}
+
+.link > a > span {
+  background-color:rgba(230,230,230,0.5);
 }
 
 .link > a:hover {
   color: white;
-  font-size: 26px;
+  font-size: 28px;
   text-decoration: none;
 }
 
@@ -92,6 +133,7 @@ body, html {
 .link > a > i {
   font-size: 50px;
   color: white;
+  background-color: none;
 }
 
 .dark > a, .dark > a > i {
