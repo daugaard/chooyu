@@ -10,20 +10,20 @@ body, html {
 }
 
 .content-mountain {
-  height: 105%;
-  width: 2600px;
+  height: 100%;
+  width: 1920px;
   font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
   background-image:url('../img/panorama1.jpg');  
-  background-size: 100% 100%;
+  background-size: auto 100%;
 }
 
 .content-map {
-  height: 105%;
-  width: 2600px;
+  height: 100%;
+  width: 1920px;
   font-family: 'Marcellus SC',"Helvetica Neue",Helvetica,Arial,sans-serif;
   background-image:url('../img/map4.png');
   background-repeat:no-repeat;
-  background-size: 100% 100%;
+  background-size: auto 100%;
 }
 
 .title {
